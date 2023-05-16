@@ -7,10 +7,30 @@ return `
 ▢ ⌁ Bot: ${BotName}
 ╰────────────▢
 
+╭─▢ *CONFIGURAÇÕES - BOT*
+▢ ⌁ ${prefixobot}Nome-bot 
+▢ ⌁ ${prefixobot}Nome-dono 
+▢ ⌁ ${prefixobot}Numero-dono 
+▢ ⌁ ${prefixobot}Numero-bot
+▢ ⌁ ${prefixobot}Prefixo-bot 
+▢ ⌁ ${prefixobot}Foto-menu 
+▢ ⌁ ${prefixobot}Foto-bot 
+╰────────────▢
+
 ╭─▢ *SUPORTE*
 ▢ ⌁ ${prefixobot}Bug  
 ▢ ⌁ ${prefixobot}Sugestão
 ▢ ⌁ ${prefixobot}Convite
+╰────────────▢
+
+╭─▢ *COMANDOS*
+▢ ⌁ ${prefixobot}Menudono
+▢ ⌁ ${prefixobot}menuconfig
+▢ ⌁ ${prefixobot}Menufigu
+▢ ⌁ ${prefixobot}Menulogos
+▢ ⌁ ${prefixobot}Menuhentai
+▢ ⌁ ${prefixobot}Menuanime
+▢ ⌁ ${prefixobot}Menubrincadeiras 
 ╰────────────▢
 
 ╭─▢ *PESQUISANDO*
@@ -31,18 +51,15 @@ return `
 
 ╭─▢ *DOWNLOADER*
 ▢ ⌁ ${prefixobot}Play ( Nome )
-▢ ⌁ ${prefixobot}Ytmp4 ( Link )
-▢ ⌁ ${prefixobot}Ytmp3 ( Link )
-▢ ⌁ ${prefixobot}Facebook ( Link )
-▢ ⌁ ${prefixobot}Instagram ( Link )
-▢ ⌁ ${prefixobot}Twitter ( Link )
-▢ ⌁ ${prefixobot}Tiktok ( Link )
+▢ ⌁ ${prefixobot}Down_v ( Link )
+▢ ⌁ ${prefixobot}Down_a ( Link )
 ▢ ⌁ ${prefixobot}Mediafire ( Link )
 ▢ ⌁ ${prefixobot}Link ( imagem/Vídeo )
 ╰────────────▢
 
 ╭─▢ *STICKERS - FIGURINHAS*
 ▢ ⌁ ${prefixobot}Exif ( Dono de Stk ) 
+▢ ⌁ ${prefixobot}S2 ( Texto do Img - Vid )
 ▢ ⌁ ${prefixobot}Sticker 
 ▢ ⌁ ${prefixobot}Fsticker 
 ▢ ⌁ ${prefixobot}Togif
@@ -55,28 +72,18 @@ return `
 
 ╭─▢ *BÁSICO*
 ▢ ⌁ ${prefixobot}Tabela 
-▢ ⌁ ${prefixobot}Walink 
+▢ ⌁ ${prefixobot}Tabela2
+▢ ⌁ ${prefixobot}Tabela3
+▢ ⌁ ${prefixobot}Tabela4
+▢ ⌁ ${prefixobot}Tabela5
+▢ ⌁ ${prefixobot}Tabela6
+▢ ⌁ ${prefixobot}Walink
 ▢ ⌁ ${prefixobot}Tagme 
 ▢ ⌁ ${prefixobot}Enquete 
 ╰────────────▢
 `
 }
 exports.menu2 = menu2
-
-const configdobot = (prefixobot, BotName, nmrdono, nmrdonoo, hora, date, sender) => {
-return `
-╭─▢ *CONFIGURAÇÕES - BOT*
-▢ ⌁ ${prefixobot}Nome-bot 
-▢ ⌁ ${prefixobot}Nome-dono 
-▢ ⌁ ${prefixobot}Numero-dono 
-▢ ⌁ ${prefixobot}Numero-bot
-▢ ⌁ ${prefixobot}Prefixo-bot 
-▢ ⌁ ${prefixobot}Foto-menu 
-▢ ⌁ ${prefixobot}Foto-bot 
-╰────────────▢
-`
-}
-exports.configdobot = configdobot
 
 const menubrincadeiras = (prefixobot, BotName, nmrdono, nmrdonoo, hora, date, sender) => {
 return `
@@ -110,8 +117,11 @@ return `
 ╰────────────▢
 
 ╭─▢ *JOGOS* 
+▢ ⌁ ${prefixobot}Dinheiro
+▢ ⌁ ${prefixobot}Minerar
 ▢ ⌁ ${prefixobot}Cassino 
 ▢ ⌁ ${prefixobot}Dado  
+▢ ⌁ ${prefixobot}Batalha-z
 ▢ ⌁ ${prefixobot}Resetforca
 ▢ ⌁ ${prefixobot}Jogodavelha 
 ▢ ⌁ ${prefixobot}Jogodaforca
@@ -134,9 +144,14 @@ return `
 ▢ ⌁ ${prefixobot}Block 
 ▢ ⌁ ${prefixobot}Clone 
 ▢ ⌁ ${prefixobot}Unblock 
-▢ ⌁ ${prefixobot}Antipv-fala
-▢ ⌁ ${prefixobot}Banchat
-▢ ⌁ ${prefixobot}Modos
+▢ ⌁ ${prefixobot}Antipvon 
+▢ ⌁ ${prefixobot}Antipvoff
+▢ ⌁ ${prefixobot}Antiligar
+▢ ⌁ ${prefixobot}Antipv
+▢ ⌁ ${prefixobot}Bangp
+▢ ⌁ ${prefixobot}Unbangp
+▢ ⌁ ${prefixobot}Seradm
+▢ ⌁ ${prefixobot}Sermembro
 ▢ ⌁ ${prefixobot}Tmgrupo
 ▢ ⌁ ${prefixobot}Limparpasta
 ▢ ⌁ ${prefixobot}Serpremium
@@ -176,7 +191,8 @@ return `
 ▢ ⌁ ${prefixobot}Tagall
 ▢ ⌁ ${prefixobot}Mute 
 ▢ ⌁ ${prefixobot}Unmute 
-▢ ⌁ ${prefixobot}Modoadm
+▢ ⌁ ${prefixobot}Privadm
+▢ ⌁ ${prefixobot}Desprivadm
 ▢ ⌁ ${prefixobot}Msgtemp
 ▢ ⌁ ${prefixobot}Listanegra
 ▢ ⌁ ${prefixobot}Delremover
@@ -188,6 +204,7 @@ return `
 ╭─▢ *CONFIGURAÇÕES - GRUPOS*
 ▢ ⌁ ${prefixobot}Antiaudio
 ▢ ⌁ ${prefixobot}Anticontato
+▢ ⌁ ${prefixobot}Anticontato2
 ▢ ⌁ ${prefixobot}Antifake
 ▢ ⌁ ${prefixobot}Antilink
 ▢ ⌁ ${prefixobot}Antidivu
@@ -211,6 +228,12 @@ exports.menuconfig = menuconfig
 const menulogos = (prefixobot, BotName, nmrdono, nmrdonoo, hora, date, sender) => {
 return `
 ╭─▢ *BANNER - LOGOS*
+▢ ⌁ ${prefixobot}Gfx 
+▢ ⌁ ${prefixobot}Gfx2 
+▢ ⌁ ${prefixobot}Gfx3 
+▢ ⌁ ${prefixobot}Gfx4 
+▢ ⌁ ${prefixobot}Gfx5 
+▢ ⌁ ${prefixobot}Gura2 
 ▢ ⌁ ${prefixobot}Joker 
 ▢ ⌁ ${prefixobot}Glitch 
 ▢ ⌁ ${prefixobot}Itachi 
@@ -340,6 +363,7 @@ return `
 
 ╭─▢ *STICKERS - FIGURINHAS*
 ▢ ⌁ ${prefixobot}Exif ( Dono de Stk ) 
+▢ ⌁ ${prefixobot}S2 ( Texto do Img - Vid )
 ▢ ⌁ ${prefixobot}Sticker 
 ▢ ⌁ ${prefixobot}Fsticker 
 ▢ ⌁ ${prefixobot}Togif
