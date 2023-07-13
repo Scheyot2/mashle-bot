@@ -1,0 +1,25 @@
+termux-change-repo
+
+termux-setup-storage
+
+apt-get update -y
+
+apt-get upgrade -y
+
+pkg upgrade -y
+
+pkg update -y 
+
+pkg install nodejs -y 
+
+pkg install nodejs-lts -y
+
+pkg install ffmpeg -y 
+
+pkg install wget -y 
+
+pkg install tesseract -y
+
+pkg install git -y
+
+cd /sdcard/Mashle-bot && clear && sh start.sh
